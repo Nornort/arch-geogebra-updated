@@ -4,7 +4,7 @@
 # Contributor: moostik <mooostik at gmail dot com>
 
 pkgname=geogebra
-pkgver=6.0.562.0
+pkgver=6.0.564.0
 pkgrel=1
 pkgdesc="Dynamic mathematics software with interactive graphics, algebra and spreadsheet"
 arch=('x86_64')
@@ -38,7 +38,7 @@ package() {
   install -Dm644 "${srcdir}/geogebra-mime.xml" "${pkgdir}/usr/share/mime/packages/geogebra.xml"
 }
 
-md5sums=('bd53237e54f18fc6c045cb48be65d157'
+md5sums=('c9814945f32237177a50cb3b1b27642c'
          '863782da033f1a337e688b544afb7d07'
          'ce697901c069ddbe5cfd69cf2d131993'
          '02b66f7d27268b1a446de7d8ab879dc8')
